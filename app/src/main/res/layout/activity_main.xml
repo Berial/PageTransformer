@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<!-- part1\part3 -->
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/view_pager"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clipChildren="false"
-    tools:context="xyz.berial.pagetransformer.MainActivity">
+    tools:context="xyz.berial.pagetransformer.MainActivity"/>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/view_pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginRight="45dp"
-        android:layout_marginTop="30dp"
-        android:clipChildren="false"/>
-</LinearLayout>
+    <!-- part2 -->
+
+    <!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:clipChildren="false"-->
+    <!--tools:context="xyz.berial.pagetransformer.MainActivity">-->
+
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:id="@+id/view_pager"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:layout_marginLeft="45dp"-->
+    <!--android:layout_marginRight="45dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:clipChildren="false"/>-->
+    <!--</LinearLayout>-->
 
